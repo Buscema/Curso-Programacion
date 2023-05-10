@@ -13,7 +13,7 @@ body{
 }
 
 header {
-    background-color: green;
+    background-color:azure;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -43,17 +43,90 @@ header {
     font-weight: 700;
 }
 
+.infoprincipal{
+    display: flex;
+    max-width: 100%;
+    height: 80vh;
+    background-image: url(birra\ y\ montaña.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
 
+.infoprincipal .info1{
+    max-width: 1000px;
+    margin: 0 auto; 
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    
+}
 
+.infoprincipal .info1 .info2{
 
+    flex-basis: 50%;
+    color: #fff;
+    text-align: left;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.infoprincipal .info1 .info2 h1{
+    font-family:'Times New Roman', Times, serif; 
+    color:black;
+    font-size: 100px;
+    line-height: 0.9;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-radius: 2%;
+    box-sizing: border-box;
 
+}
+.infoprincipal .info1 .info2 p{
+    font-family: Impact; 
+    color:black; 
+    box-sizing: border-box;
+}
 
+.infoprincipal .info1 .info2 .botones{
 
+    display: flex;
+    margin-top: 30px;
+    flex-flow: ;
+}
 
+.infoprincipal .info1 .info2 .botones .bt1{
 
+    flex-basis:30%; 
+    border: solid 2px; 
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:yellow; 
+}
 
+.infoprincipal .info1 .info2 .botones .bt2{
 
+    flex-basis:30%; 
+    border: solid 2px; 
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:yellow; 
+}
+
+.historia{
+
+    max-width: 100%;
+    height: 80vh;
+}
 
 
 
