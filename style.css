@@ -727,6 +727,11 @@ display:grid;
         background-size:contain;
         
     }
+    .infoprincipal .info1 .info2 p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(250, 250, 124);
+        box-sizing: border-box;
+    }
     .contenedor{ 
         flex-direction: column;
         align-items: center;
