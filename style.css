@@ -723,30 +723,38 @@ display:grid;
         display: block;
     }
 
-    .contenedor{
+    .infoprincipal{
+        background-size:contain;
         
-        display:block;
-        max-width: 100%;
+    }
+    .contenedor{ 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         background-color:  rgb(30, 99, 99);
     }
 
 
     #productos{
-        
-        display:block;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         
     }
-
+    #productos h1, p{
+       
+        text-align: center;
+    }
     #productos .estilos{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-       
+        text-align: center;
+        
     }
     #productos .estilos .tipo img{
-        display:none;
+        display: none;
     }
 
     #historia img{
@@ -761,6 +769,7 @@ display:grid;
        flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
        
     }
 
@@ -769,7 +778,11 @@ display:grid;
        flex-direction: column;
       justify-content: center;
       align-items: center;
-       
+      
+    }
+    .ecobirra{
+        flex-direction: column;
+        text-align: center;
     }
 
     #formucontact {
@@ -780,17 +793,22 @@ display:grid;
     flex-direction: column;
     height: auto;
     margin-bottom: 20px;
+    text-align: center;
     }
     
     .contenidofot{
-        display: block;
-    }
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+        }
+
     .contenidofot figure{
         display: none;
 
     }
     .piepagina .contenidofot{
-        display: block;
+       display: block;
     }
     
 }
