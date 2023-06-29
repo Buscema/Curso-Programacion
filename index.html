@@ -1,22 +1,34 @@
 <html lang="en">
+<script src="https://kit.fontawesome.com/3e0645ba6d.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width-device-width", user-scable="no", iinitial-scale="1.0" >
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scable=no, initial-scale=1.0, maximu-scale=1.0, mininum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+<div class="responsive">
 </head>
 <body>
-   <header>
+   <header class="header">
     <img src="./descarga.jpg" alt="img" class="logo">
 
    <nav class="navbar">
+    <label for="menuburger"><i class="fa-solid fa-burger"></i></label>   
+    <input type="checkbox" id="menuburger">
     <ul class="navbar-list">
-        <li> <a href=""> DESCUBRENOS</a></li>
-        <li> <a href="">PRODUCTOS</a></li>
-        <li> <a href="">CONTACTO</a></li>
-        
+        <li> <a href="#historia"> DESCUBRENOS</a></li>
+        <li> <a href="#productos">PRODUCTOS</a></li>
+        <li> <a href="#formucontact">CONTACTO</a></li>
+        <li> <a href="#registro"> <div class="boton-modal">
+            <label for="btn-modal">
+                Iniciar Sesion
+            </label>
+        </div></a></li>
     </ul>
+
+
 
    </nav>
 </header>
@@ -28,9 +40,8 @@
                 <h1>Cerveza IGBU</h1>
                 <p>Compañia de dos hermanos, con el objetivo de lograr birra de alta calidad y divertirse </p>
                 <div class="botones">
-                    <a href="" class="bt1">Estilos</a>
-
-                    <a href="" class= "bt2"> Shop</a>
+                    <a href="#productos" class="bt1">Estilos</a>
+                    <a href="#historia" class= "bt1"> Historia</a>
                 </div>
             </div>
 
@@ -41,29 +52,224 @@
     <div class="contenedor">
         <div class="cartas">
             <div class="contenido">
-                <h3>Mejores Promos</h3>
-                <p>Tenemos promociones para todos los gustos </p>
-                <a href="#">Conocelas</a>
-            </div>
-        </div>
-        <div class="cartas">
-            <div class="contenido">
-                <h3>Amigos Ecologicos</h3>
-                <p> Todo lo que hacemos, es amigable con la ecologia</p>
-                <a href="#">ECOAMIGO</a>
-            </div>
-        </div>
-        <div class="cartas">
-            <div class="contenido">
-                <h3>Materia Prima Excelente</h3>
-                <p>Utilizamos la mejor materia prima del merado </p>
-                <a href="#">Proveedores</a>
-            </div>
-        </div>
+                <div class="img1">
+                    <h3>Mejores Promos</h3>
+                    <p>Tenemos promociones para todos los gustos </p>
+                    <a href="#promos">Conocelas</a>
 
+                </div>
+                
+            </div>
+        </div>
+        <div class="cartas">
+            <div class="contenido">
+                <div class="img2">
+                    <h3>Amigos Ecologicos</h3>
+                <p> Todo lo que hacemos, es amigable con la ecologia</p>
+                <a href="#ecologia">ECOAMIGO</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="cartas">
+            <div class="contenido">
+                <div class="img3">
+                    <h3>Materia Prima Excelente</h3>
+                <p>Utilizamos la mejor materia prima del mercado </p>
+                <a href="https://www.facebook.com/monteno.insumos.cerveceros/" target=_blank >Proveedores</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="historia">
+        <h2>Breve historia:</h2>
+        <p> Dos hermanos. 
+            Rodrigo, enologo , aprendio en la facultad y se apasiono por el arte de cocinar cerveza. 
+            Ignacio, siendo un niño vio como cocinaba su hermano, con sus amigos. Sintio una atraccion, por el proceso, aun no habia probado la cerveza.
+            Pasaron los años, y decidieron que podian intentarlos juntos, en una pieza de la casa de los padres. 
+            Asi nacio Igbu, una pasion hermana por la cerveza!
+        </p>
+        
+
+            <img src="nachoparado.jpg" alt="">
+            <img  src="nachocercamacera.jpg" alt="">
+            <img src="equipobirra.jpg" alt="">
+            <img  src="fermentando.jpg" alt="">
+            <img  src="fermenta2.jpg" alt="">
+        </div>
 
     </div>
     
+    <section id="productos">
+        <h1>Recetas Creadas por Nosotros</h1>
+        <p> Cada estilo es creado a prueba y error hasta lograr lo que deseabamos en cada uno.</p>
+                <div class="estilos">
+                    <div class="tipo">
+                        <h4>Cerveza Negra</h4>
+                        <p>Cerveza con gran cuerpo pero facil de tomar. Gran retencion de espuma. Recuerda aromas a cafe, cacao, vainilla.</p>
+                        <img src="negra1.jpg" alt="img">
+                        <a href="#formucontact">  <input type="button" name="Comprar" value="Lo quiero" class="comprar"></a><span>$500 xlitro</span>
+        
+                    </div>
+        
+                    <div class="tipo">
+                        <h4>Cerveza Roja</h4>
+                        <p>Cerveza con tonos rojizo, cerveza con gran cuerpo, con aromas a caramelo, toffe. Se destaca el caracter maltoso, con un amargo medio en boca..</p>
+                        <img src="rojas2.jpg" alt="img">
+                        <a href="#formucontact">  <input type="button" name="Comprar" value="Lo quiero" class="comprar"></a><span>$600 xlitro</span>
+                    </div>
+        
+                <div class="tipo">
+                    <h4>Cerveza IPA</h4>
+                    <p>La especialidad de la casa. Cerveza con amargor alto en boca, y gran caracter en nariz, donde se destaca el lupulo, especialmente aromas citricos.</p>
+                    <img src="ipaa.jpg" alt="img">
+                    <a href="#formucontact"><input type="button" name="Comprar" value="Lo quiero" class="comprar"></a><span>$700 xlitro</span>
+                </div>  
+        
+                </div>
+        
+        
+        
+        
+            </section>
 
-</body> 
+
+
+
+        <section id="promos">
+
+            <div class="promo1"> 
+                <h2>PROMO OSCURA</h2>
+                <p> 3 litros de Cerveza Negra x$1200</p>
+                <a href="#formucontact"><input type="button" name="Comprar" value="Lo quiero" class="comprar"></a>
+            </div>
+            <div  class="promo1">
+                <h2>PROMO COLORADA</h2>
+                <p> 3 litros de Cerveza Roja x$1500</p>
+                <a href="#formucontact"><input type="button" name="Comprar" value="Lo quiero" class="comprar"></a></div>
+            <div  class="promo1"> 
+                <h2>PROMO IPA</h2>
+                <p> 3 litros de IPA x$1800</p>
+                <a href="#formucontact"><input type="button" name="Comprar" value="Lo quiero" class="comprar"></a>  
+            </div>
+            <div  class="promo1">
+                <h2>TU PROMO</h2>
+                <p> Armala segun tu gusto y hacemos tu promo</p>
+                <a href="#formucontact"><input type="button" name="Comprar" value="Lo quiero" class="comprar"></a> 
+            </div>
+         
+        
+        </section>
+        
+
+        <section id="ecologia">
+            <h2>ECO-AMIGOS</h2>
+            <div class="ecobirra">
+                    <h2>BAGAZO</h2>
+                    <p>Utilizamos el resto de malta, que sobra, para donarlo a granjas para alimentar animales, y para elaborar pan</p>
+
+            </div>
+
+            <div class="ecobirra">
+                <h2>ORO LIQUIDO</h2>
+                <p>Utilizamos el agua que se malgastaria para regar y lavar</p>
+            </div>
+
+            <div class="ecobirra">
+                <h2>ENVASES</h2>
+                <p>Reutilizamos envases de vidrio, para evitar que sean descartables</p>
+
+            </div>
+
+        </section>
+
+
+
+   <div class="separador">
+
+   </div>
+
+    <div id="formucontact">
+        <div class="infocontac">
+            <h2> Contactanos</h2>
+            <p>Esperamos tus comentarios, pedidos o sugerencias. Te leemos ansiosos...</p>
+            <a href="#"><i class="fa-solid fa-phone"></i>  2616145063</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i>  rodrigobuscema@gmail.com</a>
+            <a href="#"><i class="fa-solid fa-map-pin"></i>  Mendoza, Argentina</a>
+        </div>
+        <form action="#" autocomplete="off">
+         <input type="text" name="nombre" placeholder="Como te llamas?" class="campo">
+        <input type="email" name="email" placeholder="tucorreo@algo.com" class="campo">
+        <textarea name="mensaje" placeholder="Te leemoos" ></textarea>
+        <input type="submit" name="enviar" value="Envia sin miedo" class="btnenviar">
+        
+        
+        </form>
+        
+    
+    </div>
+        
+
+
+<input type="checkbox" id="btn-modal">
+
+<section id="registro">
+    
+       <h5> Primero lo primero, ingresa</h5>
+       <input class="controlregistro"  type="text" name="usuario" value="" placeholder="Usuario">
+       <input class="controlregistro" type="password" name="contraseña" value="" placeholder="Contraseña">
+       <input class="botonregistro"type="submit" name="" value="Ingresar" placeholder="Usuario">
+        <a href="#formucontact">Olvidaste tu ######?</a>
+        <div class="btn-cerrar">
+            <label for="btn-modal">Cerrar</label>
+    </div>
+</section>
+
+    
+
+
+
+
+
+
+<footer class="piepagina">
+    <div class="contenidofot">
+        
+        <div class="box"> 
+           <figure>
+            <a href="#"> <img src="jaja.jpg" alt="Logo"></a>
+           </figure>
+        </div>
+        <div class="box">
+         <h4> Sobre Nosotros</h4>
+         <p>Nuestra vida es una birra, y la tuya? Amamos lo que hacemos!</p>   
+        </div>
+        <div class="box"> 
+            <h4>Siguenos</h4>
+            <div class="red-social">
+
+                <a href="https://es-la.facebook.com/" target=_blank><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target=_blank><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target=_blank><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            </div>
+
+            <div class="box">
+                    <h4>Ubicacion</h4>
+                    <span class="map"></span>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.3162835622506!2d-68.87266172533087!3d-32.8898049690182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a326187519947f%3A0x6d81606321bb0289!2sParque%20General%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1687399883661!5m2!1ses-419!2sar" width="80%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href=""></a></div>
+               
+        </div>
+</footer>
+
+
+
+    
+
+</body>
+</div> 
 </html>
+
