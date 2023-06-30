@@ -807,13 +807,17 @@ display:grid;
        justify-content: center;
        text-align: center;
         }
-
+     .piepagina {
+        width: 100%;
+         background-color: rgb(245, 245, 138);
+            }
     .contenidofot figure{
         display: none;
 
     }
     .piepagina .contenidofot{
        display: block;
+       
     }
     
 }
